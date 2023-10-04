@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" /> <!-- Valor do raio determina a curvatura das bordas -->
+            <stroke
+                android:color="#FFFFFF"
+                android:width="2dp" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item
+        android:top="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" /> <!-- O mesmo valor ou um pouco menor do que o valor do raio no item anterior -->
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>
